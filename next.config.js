@@ -28,6 +28,7 @@ const moduleExports = {
 		optimisticClientCache: true,
 		webVitalsAttribution: ['CLS', 'LCP'],
 		profiling: true,
+		nextScriptWorkers: true,
 		appDir: true,
 	},
 	async headers() {
